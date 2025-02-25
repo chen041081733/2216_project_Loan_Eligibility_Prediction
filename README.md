@@ -1,1 +1,1 @@
-# 2216_project_Loan_Eligibility_Prediction
+This is a project to predict the loan application approval possibility
