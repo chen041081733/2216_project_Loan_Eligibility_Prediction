@@ -13,7 +13,8 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(
 # cache data upload and model training
 @st.cache_data
 def load_data_and_model():
-    file_path = r"C:\algonquin\2025W\2216_ML\2216_project\2216_project_Loan_Eligibility_Prediction\data\credit.csv"
+    #file_path = r"C:\algonquin\2025W\2216_ML\2216_project\2216_project_Loan_Eligibility_Prediction\data\credit.csv"
+    file_path = "https://raw.githubusercontent.com/chen041081733/2216_project_Loan_Eligibility_Prediction/main/data/credit.csv"
     try:
         xtrain_scaled, xtest_scaled, ytrain, ytest, scaler, feature_names = data_preparation(file_path)
         logging.info("Data load successfully")
