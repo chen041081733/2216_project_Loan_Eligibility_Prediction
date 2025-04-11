@@ -42,3 +42,7 @@ streamlit run LoanEligibility_Streamlit.py
 
 Thank you for using the Credit Eligibility Application!  
 
+Streamlit Link:
+https://2216projectloaneligibilityprediction-bwneebb7xq2sjycefdeyz5.streamlit.app/
+
+
